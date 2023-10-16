@@ -1,6 +1,9 @@
 # Stream_Monitor
 This repository describes our stream monitor, design, manufacture, and deployment in great detail and exquisite intrigue. 
 
+# Part list
+Temp. Sensor - In lab
+Ph Probe - https://store-usa.arduino.cc/products/gravity-analog-ph-sensor-meter-pro-kit-for-arduino, $56
 
 # Timeline
 
@@ -21,7 +24,9 @@ April: Installation
 May: Refinement and final documentation
 
 
-# Step one-Find the location
+## Week 1
+We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful.
 
-Location needs to be determined first and foremost for this project to be succesful. Before we can start designing anything, we need to find where we are going to put it. After that, we can start planning further ahead and makeing cad designs.
+## Week 2
+We shopped from the parts list to get the components for our project. We discovered a temperature sensor from one of our old project that we could use.
 
