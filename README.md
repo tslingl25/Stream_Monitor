@@ -28,11 +28,12 @@ May: Refinement and final documentation
 
 
 ## Week 1
-We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful.
++ We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful.
 ### Intial Design Diagrams
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%201.jpg)
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%202.jpg)
 
 ## Week 2
-We shopped from the parts list to get the components for our project. We discovered a temperature sensor from one of our old project that we could use.
++ Created a part list of components we need to order we need to order
++ Search the lab for components we already have, found a functional tempature sensor and a LoRa
 
