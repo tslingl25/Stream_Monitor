@@ -2,10 +2,10 @@
 This repository describes our stream monitor, design, manufacture, and deployment in great detail and exquisite intrigue. 
 
 # Part list
-Temp. Sensor - In lab
-Ph Probe - https://store-usa.arduino.cc/products/gravity-analog-ph-sensor-meter-pro-kit-for-arduino, $56
-Turbidity Sensor - https://www.amazon.com/DFRobot-Gravity-Analog-Turbidity-Arduino/dp/B075T3CVH6, $15
-Water Level Sensors - Ultrasonic Sensor paired with a pipe(In lab)
+- Temp. Sensor - In lab
+- Ph Probe - https://store-usa.arduino.cc/products/gravity-analog-ph-sensor-meter-pro-kit-for-arduino, $56
+- Turbidity Sensor - https://www.amazon.com/DFRobot-Gravity-Analog-Turbidity-Arduino/dp/B075T3CVH6, $15
+- Water Level Sensors - Ultrasonic Sensor paired with a pipe(In lab)
 
 
 # Timeline
