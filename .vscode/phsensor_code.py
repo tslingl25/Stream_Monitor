@@ -1,11 +1,24 @@
-import board
-from analogio import AnalogIn
-import board
 import time
+import board
+import analogio
 
-offset = 0
-analog_in = AnalogIn(board.A0) # Defines GP0 as the analog pin we are using
-def get_voltage(pin): # Sets up a function to measure the voltage in the GPO pin
-    return (pin.value * 5) / 65536
-x = get_voltage(analog_in)
-phValue = 3.5 * x + offset
+ph_sensor_pin = board.A0
+
+analog_ph = analogio.AnalogIn(ph_sensor_pin)
+
+def read_ph_voltage():
+    raw_value = analog_ph.value
+    voltage = raw_value / 65535 * 3.3 
+
+    return voltage
+
+def convert_voltage_to_ph(voltage):
+    ph_value = 3.5 * voltage - 1.5
+
+    return ph_value
+
+while True:
+    ph_voltage = read_ph_voltage()
+    ph_value = convert_voltage_to_ph(ph_voltage)
+    print("pH Value:", ph_value)
+    time.sleep(1)
