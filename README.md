@@ -27,8 +27,8 @@ April: Installation
 May: Refinement and final documentation
 
 
-## Week 1
-+ We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful.
+## October
++ We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful. We found lots of interesting options, but we need to deciphyr which ones will work and which ones wont, as some of our options are a little sketchy to nsay the least.
 ### Intial Design Diagrams
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%201.jpg)
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%202.jpg)
