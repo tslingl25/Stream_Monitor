@@ -28,12 +28,11 @@ May: Refinement and final documentation
 
 
 ## October
-+ We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful. We found lots of interesting options, but we need to deciphyr which ones will work and which ones wont, as some of our options are a little sketchy to nsay the least.
++ We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful. We found lots of interesting options, but we need to deciphyr which ones will work and which ones wont, as some of our options are a little sketchy to say the least. We found that we had a functional tempurture sensor so we didnt need to purchase one of those.
 ### Intial Design Diagrams
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%201.jpg)
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%202.jpg)
 
-## Week 2
-+ Created a part list of components we need to order we need to order
-+ Search the lab for components we already have, found a functional tempature sensor and a LoRa
+## November
+- We delagated tasks, Thomas on CAD, and Nathaniel on code. We split up and got hard to work. The initial box design was a large 3d printed box, but due to manufacturing constraints, said box could not be manufactured and I had to find another way. The other way came in the form of precison fit lazer cut and 3d printed parts. Step one was 
 
