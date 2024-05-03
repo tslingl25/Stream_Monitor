@@ -34,5 +34,7 @@ May: Refinement and final documentation
 ![Intial Design Diagrams.](https://github.com/tslingl25/Stream_Monitor/blob/main/images/Intial%20Design%202.jpg)
 
 ## November
-- We delagated tasks, Thomas on CAD, and Nathaniel on code. We split up and got hard to work. The initial box design was a large 3d printed box, but due to manufacturing constraints, said box could not be manufactured and I had to find another way. The other way came in the form of precison fit lazer cut and 3d printed parts. Step one was 
+- We delagated tasks, Thomas on CAD, and Nathaniel on code. We split up and got hard to work. The initial box design was a large 3d printed box, but due to manufacturing constraints, said box could not be manufactured and I had to find another way. The other way came in the form of precison fit lazer cut and 3d printed parts. Step one was creating the blue prints for the lazer cut shell. These flat pieces of presision machined material were to be held together through the use of solid, 3d extruded pla+ brackets. The adding of these brakcets throughout the assemby was a painstaking yet crucial proccess that took up the remainder of the great month of November.
 
+##December
+-Oh december. A majestic month. In this month I fortuitusly added all of the precision extruded pla+ parts to the computer aided design. Exquisitaly designed and maticulously combed over parts like the conduet holder and the conduet holder base were designed. Through precision engineering that is not only functional, but pleaseing to the visual observer, was produced. These parts mesh with each other like bread and butter, plugs and outlets, engineering, and art.
