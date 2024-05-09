@@ -1,0 +1,40 @@
+import board
+from analogio import AnalogIn
+import board
+import time
+import analogio
+
+analog_in = AnalogIn(board.A2) # Defines GP0 as the analog pin we are using
+ph_sensor_pin = board.A0
+analog_ph = analogio.AnalogIn(ph_sensor_pin)
+thermistor = analogio.AnalogIn(board.A1)
+def get_voltage(pin): # Sets up a function to measure the voltage in the GPO pin
+    return (pin.value * 3.3) / 65536 # equation to measure the voltage value
+x = get_voltage(analog_in) # Defines x as the variable used in the turbidity equation to represent the voltage
+turbidity = (-1120.4*(x**2) + 5742.3*(x) - 4352.9) # turbidity equation where y is turbidity and x is voltage, allows turbidity to be graphed
+def read_ph_voltage():
+    raw_value = analog_ph.value
+    voltage = raw_value / 65535 * 3.3 
+
+    return voltage
+def convert_voltage_to_ph(voltage):
+    ph_value = 3.5 * voltage - 1.5
+
+    return ph_value
+def steinhart_temperature_C(r, Ro=10000.0, To=25.0, beta=3950.0):
+    import math
+    steinhart = math.log(r / Ro) / beta      # log(R/Ro) / beta
+    steinhart += 1.0 / (To + 273.15)         # log(R/Ro) / beta + 1/To
+    steinhart = (1.0 / steinhart) - 273.15   # Invert, convert to C
+    return steinhart
+R = 10000 / (65535/thermistor.value - 1)
+steinhart_temperature_C(R)
+while True:
+    ph_voltage = read_ph_voltage()
+    ph_value = convert_voltage_to_ph(ph_voltage)
+    print("pH Value:", ph_value)
+    time.sleep(10)
+    print((turbidity)) # prints the turbidity value
+    time.sleep(10)
+    print(steinhart_temperature_C(R))
+    time.sleep(10)
