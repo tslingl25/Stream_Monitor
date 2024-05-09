@@ -8,25 +8,6 @@ This repository describes our stream monitor, design, manufacture, and deploymen
 - Water Level Sensors - Ultrasonic Sensor paired with a pipe(In lab)
 
 
-# Timeline
-
-October: Research and planning
-
-November: Planning and CAD
-
-December: Assembly
-
-January: Prototyping 
-
-February: Testing
-
-March: Testing
-
-April: Installation
-
-May: Refinement and final documentation
-
-
 ## October
 + We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful. We found lots of interesting options, but we need to deciphyr which ones will work and which ones wont, as some of our options are a little sketchy to say the least. We found that we had a functional tempurture sensor so we didnt need to purchase one of those.
 ### Intial Design Diagrams
@@ -47,3 +28,6 @@ May: Refinement and final documentation
 
 ## March
 - You know what they say. March comes in like a lion and goes out like a lamb. It didnt. It came in like a lamb and went out like a lamb. This month was fraught with challenges. It was time to do somthing i'd never done before. Soldier a circuit board. I had sokme troubles at first, sort of like the "troubles" in northern Ireland. The troubles were from the beginning, but without peace walls it got ugly, quick. Untill Mr.Miller showed me the stratigy, getting a good soldier joint between the wires and the headers was next to impossible. The strategy that Mr Miller showed me solved our troubles with the soldier joints as quickly as the good friday agreement of 1998. To get a good secure connection to the headers, you need to fashion the wire into a small loop and put it around the header, next, you heat up the header and feed the soldier into it to create a super secure soldier joint. Once I learned these little tricks, the circuit board soldiering went relatively smoothly. Except for one wire I soldiered onto the wrong place and promptly fixed it was suprisingly easy, though meticulous.
+
+## April
+- April, my birth month. This great month is full of joy and wonder, including the use of the first 7 days of the month for spring break. After that joyous time concluded, it was TIME TO GRIND. Whilst designing the box, many of the holes I put were for the wrong things, I know, DURRRRRRR. So I found the right bit, chucked it up, and got to drilling. Hole after hole, measurement after measurement, I got the modules bolted in place. Next step was to get everything hooked up and soldered into the modules. I had to make a beutiful extension cord and braid some wires together for it. This month is when I felt the consequences of not haveing a good electronic layout before cutting out he box. Never the less, This marked the completion of the wireing and structure of this project.
