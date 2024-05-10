@@ -31,3 +31,6 @@ This repository describes our stream monitor, design, manufacture, and deploymen
 
 ## April
 - April, my birth month. This great month is full of joy and wonder, including the use of the first 7 days of the month for spring break. After that joyous time concluded, it was TIME TO GRIND. Whilst designing the box, many of the holes I put were for the wrong things, I know, DURRRRRRR. So I found the right bit, chucked it up, and got to drilling. Hole after hole, measurement after measurement, I got the modules bolted in place. Next step was to get everything hooked up and soldered into the modules. I had to make a beutiful extension cord and braid some wires together for it. This month is when I felt the consequences of not haveing a good electronic layout before cutting out he box. Never the less, This marked the completion of the wireing and structure of this project.
+
+## May
+- May, like the mayflower, upon which many of our ancestors sailed the ocean blue. During this month, some final tweaks to the code and wiring diagram were performed. The box was water proofed, stuck on a pole, and we started to get some horrible un-interpretable data! This is actually good because it means all we have left to do is calibrate the sensors then we really are in buisness.
