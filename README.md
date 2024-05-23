@@ -7,6 +7,8 @@ This repository describes our stream monitor, design, manufacture, and deploymen
 - Turbidity Sensor - https://www.amazon.com/DFRobot-Gravity-Analog-Turbidity-Arduino/dp/B075T3CVH6, $15
 - Water Level Sensors - Ultrasonic Sensor paired with a pipe(In lab)
 
+# Materials
+-3.2mm thick acrylic, 3d printed brackets, machine screws and nuts, 3d printed conduet holder and other parts.
 
 ## October
 + We outlined some initial design fundamentals and diagrams. We also started to plan which components we had to order for our project to be succesful. We found lots of interesting options, but we need to deciphyr which ones will work and which ones wont, as some of our options are a little sketchy to say the least. We found that we had a functional tempurture sensor so we didnt need to purchase one of those.
@@ -36,7 +38,7 @@ Battery holder
 ![0](https://github.com/tslingl25/Stream_Monitor/assets/71349802/a490a4fa-8245-4f14-a7be-bd48c48afcad)
 
 ## March
-- You know what they say. March comes in like a lion and goes out like a lamb. It didnt. It came in like a lamb and went out like a lamb. This month was fraught with challenges. First step was a circuit diagram, on the white board it was created. It was time to do somthing i'd never done before. Soldier a circuit board. I had sokme troubles at first, sort of like the "troubles" in northern Ireland. The troubles were from the beginning, but without peace walls it got ugly, quick. Untill Mr.Miller showed me the stratigy, getting a good soldier joint between the wires and the headers was next to impossible. The strategy that Mr Miller showed me solved our troubles with the soldier joints as quickly as the good friday agreement of 1998. To get a good secure connection to the headers, you need to fashion the wire into a small loop and put it around the header, next, you heat up the header and feed the soldier into it to create a super secure soldier joint. Once I learned these little tricks, the circuit board soldiering went relatively smoothly. Except for one wire I soldiered onto the wrong place and promptly fixed it was suprisingly easy, though meticulous.
+- You know what they say. March comes in like a lion and goes out like a lamb. It didnt. It came in like a lamb and went out like a lamb. This month was fraught with challenges. First step was a circuit diagram, on the white board it was created. It was time to do somthing i'd never done before. Soldier a circuit board. I had some troubles at first, sort of like the "troubles" in northern Ireland. The troubles were from the beginning, but without peace walls it got ugly, quick. Untill Mr.Miller showed me the stratigy, getting a good soldier joint between the wires and the headers was next to impossible. The strategy that Mr Miller showed me solved our troubles with the soldier joints as quickly as the good friday agreement of 1998. To get a good secure connection to the headers, you need to fashion the wire into a small loop and put it around the header, next, you heat up the header and feed the soldier into it to create a super secure soldier joint. Once I learned these little tricks, the circuit board soldiering went relatively smoothly. Except for one wire I soldiered onto the wrong place and promptly fixed it was suprisingly easy, though meticulous.
 
 Circuit Diagram 
 ![mail google](https://github.com/tslingl25/Stream_Monitor/assets/71349802/31e9859d-6889-47b6-a40d-cc22e0f2bd96)
@@ -51,3 +53,6 @@ Bolted on module
 
 ## May
 - May, like the mayflower, upon which many of our ancestors sailed the ocean blue. During this month, some final tweaks to the code and wiring diagram were performed. A month frought with documentation and sorrow. Long hours typeing at the computor and presenting were acheived. A masterful presentation was excecuted with prescision.
+
+## Engineering analysis
+- The structure should be good on the box needing little maintainence, one thing that will have to be monitored is making sure that the sensors are re-calibrated and cleaned as this could mess up values received from them.
