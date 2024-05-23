@@ -63,3 +63,6 @@ Bolted on module
 
 ## Engineering analysis
 - The structure should be good on the box needing little maintainence, one thing that will have to be monitored is making sure that the sensors are re-calibrated and cleaned as this could mess up values received from them.
+
+## Code Link
+[Final Code](https://github.com/tslingl25/Stream_Monitor/blob/main/.vscode/finalcode).
